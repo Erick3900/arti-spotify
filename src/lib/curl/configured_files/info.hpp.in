@@ -1,0 +1,13 @@
+#pragma once
+
+#include <string_view>
+
+namespace arti::curl::info {
+
+    static constexpr std::string_view author = "@PROJECT_AUTHOR@";
+    static constexpr std::string_view author_github = "@PROJECT_AUTHOR_GITHUB@";
+    static constexpr std::string_view name = "@PROJECT_NAME@";
+    static constexpr std::string_view version = "@PROJECT_VERSION@";
+    static constexpr std::string_view description = "@PROJECT_DESCRIPTION@";
+
+}    // namespace arti::curl::info
