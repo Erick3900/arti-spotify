@@ -1,12 +1,14 @@
 .arti/**/.cache.lua
+.arti/ws/state.lua
 
 .vim/**
 .idea/**
 .cache/**
 .vscode/**
 
-[Bb]uild
-[Bb]uild_[Dd]ebug
+[Bb]uild/**
+[Bb]uild_[Dd]ebug/**
+[Bb]uild_[Rr]elease/**
 
 compile_commands.json
 config.json
